@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/id_contacts"
+          android:title="@string/menu_item_contacts"
+           app:showAsAction="never"/>
+
+    <item android:id="@+id/id_settings"
+        android:title="@string/menu_item_settings"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/id_status"
+        android:title="@string/menu_item_status"
+        app:showAsAction="never"/>
+
+    <item android:id="@+id/id_mic"
+        android:icon="@drawable/ic_mic_none_white_24dp"
+        app:showAsAction="always"
+        android:title="" />
+
+    <item android:id="@+id/id_call"
+        android:icon="@drawable/ic_call_white_24dp"
+        app:showAsAction="always"
+        android:title="" />
+
+    <item android:id="@+id/id_check"
+        android:icon="@drawable/ic_check_white_24dp"
+        app:showAsAction="always"
+        android:title="" />
+
+</menu>
